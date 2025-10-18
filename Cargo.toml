@@ -1,0 +1,9 @@
+[package]
+name = "curseofwar-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ncurses = "5.101.0"
+rand = "0.8"
+clap = { version = "4", features = ["derive"] }
